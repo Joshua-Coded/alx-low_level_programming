@@ -1,1 +1,1 @@
-My more loop function on C
+My functions on  C
