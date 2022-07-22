@@ -7,7 +7,7 @@
 int main(int argc, char *argv[])
 {
 int v;
-for(v = 1; v > argc; v++)
+for(v = 1; v < argc; v++)
 {
 printf("%s\n", argv[v]);
 return (0);
