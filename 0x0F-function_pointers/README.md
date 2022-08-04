@@ -1,0 +1,1 @@
+fuction to pointers readme
