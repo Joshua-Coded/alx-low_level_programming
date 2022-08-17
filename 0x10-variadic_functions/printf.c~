@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<stdarg.h>
+#include<string.h>
+
+int printf (const char *format, ...)
+{
+  va_list args;
+  int done;
+  va_start(args, format);
+  done = vfprintf(stdout, format, args);
+  va_end(args);
+  return done;
+
+}
+
+int main()
+{
+  printf("Joshua is the best developer in the world\n");
+  printf("Alx is here for all \n");
+}
