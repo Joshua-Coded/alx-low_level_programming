@@ -59,3 +59,11 @@ int div(int a, int b)
 }
 
 
+/**
+ *mod - modulo
+ *@a: number
+ */
+int mod(int a, int b)
+{
+  return (a % b);
+}
